@@ -10,7 +10,7 @@ import jsUrl from '../assets/tech/javascript.svg';
 import gitUrl from '../assets/tech/git.svg';
 import githubUrl from '../assets/tech/github.svg';
 import antigravityUrl from '../assets/tech/antigravity.svg';
-import openaiUrl from '../assets/tech/openai.svg';
+import lovableUrl from '../assets/tech/lovable.svg';
 import supabaseUrl from '../assets/tech/supabase.svg';
 
 const Planet = ({ position, text, url, index, total }) => {
@@ -70,7 +70,7 @@ const Constellation = () => {
     { text: "Git", url: gitUrl },
     { text: "GitHub", url: githubUrl },
     { text: "Antigravity", url: antigravityUrl }, 
-    { text: "Lovable AI", url: openaiUrl },
+    { text: "Lovable AI", url: lovableUrl },
     { text: "Supabase", url: supabaseUrl }
   ];
 
